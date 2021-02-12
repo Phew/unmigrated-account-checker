@@ -13,7 +13,7 @@ def main():
         if find:
             print('Unmigrated: True')
         else:
-            print('This account is migrated :/')
+            print('Unmigrated: False')
     except Exception as e: print(e)
 
 main()
